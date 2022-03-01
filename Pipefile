@@ -1,0 +1,15 @@
+[[source]]
+url         = "https://pypi.org/simple"
+verify_ssl  = true
+name        = "pypi"
+
+[packages]
+pyspark     = "3.0.1"
+sphinx      = "4.4.0"
+pycodestyle = "3.8"
+
+[require]
+python_version = "3.8""
+
+[dev-packages]
+pylint = "2.6.0"
